@@ -10,11 +10,19 @@ namespace TamagotchiKata
     {
         public int Hungriness { get; set; }
         public int Fullness { get; set; }
+        public int Happiness { get; set; }
+        public int Tiredness { get; set; }
 
         public void Feed()
         {
             Hungriness--;
             Fullness++;
+        }
+
+        public void Play()
+        {
+            Happiness++;
+            Tiredness++;
         }
     }
 }

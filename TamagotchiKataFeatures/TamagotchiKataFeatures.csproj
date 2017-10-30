@@ -97,6 +97,7 @@
       <DependentUpon>put_tamagotchi_to_bed.feature</DependentUpon>
     </Compile>
     <Compile Include="TamagochiOwnerCanFeedItSteps.cs" />
+    <Compile Include="TamagochiOwnerCanPlayWithItSteps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

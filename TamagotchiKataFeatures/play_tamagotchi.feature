@@ -4,7 +4,7 @@
     So that I can make it happier
 
   Scenario: Tamagochi Feeded
-    Given I have a Tamagotchi
+    Given I have a bored Tamagotchi
     When I play with it
     Then it's happiness is increased
     And it's tiredness is increased

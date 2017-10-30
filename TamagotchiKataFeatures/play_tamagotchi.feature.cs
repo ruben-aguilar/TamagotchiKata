@@ -70,7 +70,7 @@ namespace TamagotchiKataFeatures
 #line 6
   this.ScenarioSetup(scenarioInfo);
 #line 7
-    testRunner.Given("I have a Tamagotchi", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+    testRunner.Given("I have a bored Tamagotchi", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 8
     testRunner.When("I play with it", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 9
