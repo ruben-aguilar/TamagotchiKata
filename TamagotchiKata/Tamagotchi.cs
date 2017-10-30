@@ -24,5 +24,10 @@ namespace TamagotchiKata
             Happiness++;
             Tiredness++;
         }
+
+        public void PutToBed()
+        {
+            Tiredness--;
+        }
     }
 }

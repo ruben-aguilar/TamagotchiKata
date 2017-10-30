@@ -4,6 +4,6 @@
     So that I can refill it's energy
 
   Scenario: Tamagochi Feeded
-    Given I have a Tamagotchi
+    Given I have a tired Tamagotchi
     When I put it to bed
     Then it's tiredness is decreased
